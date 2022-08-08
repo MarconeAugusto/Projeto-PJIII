@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "891988837307",
+    "firebase_url": "https://simova-pji3.firebaseio.com",
+    "project_id": "simova-pji3",
+    "storage_bucket": "simova-pji3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891988837307:android:a14cfd50094f7908933a9e",
+        "android_client_info": {
+          "package_name": "pjIII.simova"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891988837307-n4nld1o9en4olsj3tquhqlvvrhinle15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwhE34Nbw-WnQY1nzorw1K7VS_ww-oGjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891988837307-n4nld1o9en4olsj3tquhqlvvrhinle15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

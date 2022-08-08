@@ -1,0 +1,64 @@
+# Adiciona usuarios
+curl -i -H "Content-Type: application/json" -X POST -d '{"nome":"Vinicius","sobrenome":"Souza","email":"vini@email.com.br","senha":"1234","tipo":1}' http://localhost:5000/usuario
+curl -i -H "Content-Type: application/json" -X POST -d '{"nome":"Marcone","sobrenome":"Louzada","email":"marcone@email.com.br","senha":"4567","tipo":1}' http://localhost:5000/usuario
+curl -i -H "Content-Type: application/json" -X POST -d '{"nome":"Daniel","sobrenome":"Cabral","email":"daniel@email.com.br","senha":"7890","tipo":1}' http://localhost:5000/usuario
+curl -i -H "Content-Type: application/json" -X POST -d '{"nome":"Joao","sobrenome":"Silva","email":"joao@email.com.br","senha":"11111","tipo":2}' http://localhost:5000/usuario
+curl -i -H "Content-Type: application/json" -X POST -d '{"nome":"Pedro","sobrenome":"Rosa","email":"pedro@email.com.br","senha":"22222","tipo":2}' http://localhost:5000/usuario
+curl -i -H "Content-Type: application/json" -X POST -d '{"nome":"Maria","sobrenome":"Souza","email":"maria@email.com.br","senha":"33333","tipo":2}' http://localhost:5000/usuario
+curl -i -H "Content-Type: application/json" -X POST -d '{"nome":"Camila","sobrenome":"Amaral","email":"camila@email.com.br","senha":"44444","tipo":2}' http://localhost:5000/usuario
+curl -i -H "Content-Type: application/json" -X POST -d '{"nome":"Roberto","sobrenome":"Elias","email":"roberto@email.com.br","senha":"55555","tipo":2}' http://localhost:5000/usuario
+
+
+# Adiciona vagas
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"A01","codigo":"A00001", "estado": 1, "tipo": 1}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"A02","codigo":"A00002", "estado": 2, "tipo": 2}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"A03","codigo":"A00003", "estado": 3, "tipo": 1}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"A04","codigo":"A00004", "estado": 4, "tipo": 1}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"A05","codigo":"A00005", "estado": 1, "tipo": 2}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"A06","codigo":"A00006", "estado": 3, "tipo": 2}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"A07","codigo":"A00007", "estado": 4, "tipo": 1}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"A08","codigo":"A00008", "estado": 1, "tipo": 2}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"A09","codigo":"A00009", "estado": 2, "tipo": 1}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"A10","codigo":"A00010", "estado": 1, "tipo": 1}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"B01","codigo":"B00001", "estado": 4, "tipo": 2}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"B02","codigo":"B00002", "estado": 2, "tipo": 1}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"B03","codigo":"B00003", "estado": 2, "tipo": 2}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"B04","codigo":"B00004", "estado": 1, "tipo": 1}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"B05","codigo":"B00005", "estado": 3, "tipo": 1}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"B06","codigo":"B00006", "estado": 3, "tipo": 1}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"B07","codigo":"B00007", "estado": 2, "tipo": 2}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"B08","codigo":"B00008", "estado": 1, "tipo": 1}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"B09","codigo":"B00009", "estado": 1, "tipo": 1}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"B10","codigo":"B00010", "estado": 4, "tipo": 1}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"C01","codigo":"C00001", "estado": 2, "tipo": 1}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"C02","codigo":"C00002", "estado": 4, "tipo": 1}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"C03","codigo":"C00003", "estado": 1, "tipo": 2}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"C04","codigo":"C00004", "estado": 3, "tipo": 1}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"C05","codigo":"C00005", "estado": 2, "tipo": 1}' http://localhost:5000/vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"identificador":"C06","codigo":"C00006", "estado": 1, "tipo": 1}' http://localhost:5000/vaga
+
+
+# Associa usuario x vaga
+curl -i -H "Content-Type: application/json" -X POST -d '{"idVaga":"1","idUsuario":"4"}' http://localhost:5000/vaga/associa
+curl -i -H "Content-Type: application/json" -X POST -d '{"idVaga":"2","idUsuario":"5"}' http://localhost:5000/vaga/associa
+curl -i -H "Content-Type: application/json" -X POST -d '{"idVaga":"5","idUsuario":"6"}' http://localhost:5000/vaga/associa
+curl -i -H "Content-Type: application/json" -X POST -d '{"idVaga":"10","idUsuario":"7"}' http://localhost:5000/vaga/associa
+curl -i -H "Content-Type: application/json" -X POST -d '{"idVaga":"13","idUsuario":"8"}' http://localhost:5000/vaga/associa
+
+
+# Adiciona eventos
+curl -i -H "Content-Type: application/json" -X POST -d '{"id":"A01","estado":"3"}' http://localhost:5000/evento
+curl -i -H "Content-Type: application/json" -X POST -d '{"id":"A02","estado":"1"}' http://localhost:5000/evento
+curl -i -H "Content-Type: application/json" -X POST -d '{"id":"A05","estado":"2"}' http://localhost:5000/evento
+curl -i -H "Content-Type: application/json" -X POST -d '{"id":"A10","estado":"4"}' http://localhost:5000/evento
+curl -i -H "Content-Type: application/json" -X POST -d '{"id":"B03","estado":"3"}' http://localhost:5000/evento
+curl -i -H "Content-Type: application/json" -X POST -d '{"id":"A02","estado":"3"}' http://localhost:5000/evento
+curl -i -H "Content-Type: application/json" -X POST -d '{"id":"A01","estado":"1"}' http://localhost:5000/evento
+curl -i -H "Content-Type: application/json" -X POST -d '{"id":"B03","estado":"4"}' http://localhost:5000/evento
+curl -i -H "Content-Type: application/json" -X POST -d '{"id":"A10","estado":"1"}' http://localhost:5000/evento
+curl -i -H "Content-Type: application/json" -X POST -d '{"id":"A01","estado":"3"}' http://localhost:5000/evento
+curl -i -H "Content-Type: application/json" -X POST -d '{"id":"A10","estado":"2"}' http://localhost:5000/evento
+curl -i -H "Content-Type: application/json" -X POST -d '{"id":"A05","estado":"4"}' http://localhost:5000/evento
+curl -i -H "Content-Type: application/json" -X POST -d '{"id":"B03","estado":"1"}' http://localhost:5000/evento
+
+
